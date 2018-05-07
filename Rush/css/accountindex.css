@@ -1,0 +1,95 @@
+.display{
+    position:absolute;
+    right:90px;
+    top:35px;
+    width:80px;
+    height:40px;
+    background-color: #94618e;
+    border: none;
+    color:#262029;
+    display: inline-block;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    cursor: pointer;
+    outline:none;
+}
+.display:hover{
+    color: #f8eee7;
+}
+.pic{
+    width:100px;
+    height:66.6px;
+    margin-left:80px;
+    padding: 0px;
+}
+.myaccount{
+    color:rgb(89, 62, 133);
+    font-size:20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left:90px;
+    padding-top:0px;
+    margin-bottom:15px;
+}
+.userinfo{
+        font-family: Courier, monospace;
+        color:rgb(89, 62, 133);
+        font-size:13px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left:10px;
+        margin-bottom:4px;
+		width: 100%;
+}
+.logout{
+    width:80px;
+    height:40px;
+    background-color: #94618e;
+    color:#262029;
+    display: inline-block;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 144px;
+    margin-left:100px;
+
+}
+/* The Modal (background) */
+.accountmodal {
+    position:absolute;
+    right:20px;
+    top:110px;
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    width: 300px; /* Full width */
+    height: 400px; /* Full height */
+    padding-top: 10px;
+    background-color:#ccbaca;
+}
+
+/* MODAL BOX CONTENT */
+
+.accountmodal-content {
+    position: relative;
+    background-color: #ffffff;
+    width: 280px; /* Could be more or less, depending on screen size */
+    height:355px;
+    margin-top:35px;
+    margin-left:10px;
+    margin-bottom: 10px;
+}
+/* CLOSE BUTTON */
+.close {
+    position: absolute;
+    right:15px;
+    top:0px;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+/* HOVER CLOSE BUTTON */
+.close:hover,
+.close:focus {
+    color: rgb(241, 83, 220);
+    cursor: pointer;
+}

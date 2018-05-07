@@ -1,0 +1,80 @@
+body{
+    background-color:#fcf4e8;
+}
+ul.niveau1{
+    margin:0;
+}
+.niveau1 li{
+float: left;
+text-align: center;
+line-height: 60px;
+width: 180px;
+height:70px;
+font-family: Calibri, 'Trebuchet MS', sans-serif;
+font-size: 20px;
+color: #fff9ef;
+}
+.menu{
+    background-color: #fc7e3a;
+    left:50px;
+    top:20px;
+}
+.carte{
+    left:50px;
+    top:20px;
+    color:#191512;
+    background-color:#756c67;
+}
+.niveau2 li{
+    line-height: 60px;
+    width:150px;
+    font-size: 15px;
+    border-bottom: 1px solid #fcf4e8
+}
+.niveau3 li{
+    line-height: 50px;
+    height:50px;
+}
+.niveau4 li{
+    line-height: 30px;
+    height:30px;
+    font-size:12px;
+}
+.sand{
+    background-color:#f49d3a;
+    left:-40px;
+    top:10px;
+    color:#191512;
+}
+.cart{
+    background-color:#b2a6a0;
+    left:-40px;
+    top:10px;
+    color:#191512;
+}
+.pale{
+    top:-40px;
+    left:110px;
+    background-color:#f9bd6d;
+}
+.grey{
+    top:-40px;
+    left:110px;
+    background-color:#d3cbc6;
+
+}
+.end{
+    top:-40px;
+    left:110px;
+    background-color: #f75f3d;
+}
+ul ul{
+    position: absolute;
+    display:none;
+}
+li{
+    list-style-type:none;
+    position: relative;
+}
+li:hover ul.niveau2, li li:hover ul.niveau3, li li li:hover ul.niveau4{
+    display:block;}

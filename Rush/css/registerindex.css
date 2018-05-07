@@ -1,0 +1,212 @@
+.registerbutt{
+    position:absolute;
+    right:175px;
+    top:35px;
+    width:80px;
+    height:40px;
+    background-color: #94618e;
+    border: none;
+    color: #f8eee7;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    cursor: pointer;
+    color:#262029;
+    outline:none;
+}
+.registerbutt:hover{
+    color: rgb(255, 244, 225);
+}
+.signin2{
+    color:rgb(89, 62, 133);
+    font-size:25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:30px;
+}
+.lname{
+    
+    top:55px;
+    left:50px;
+    font-family: Courier, monospace;
+    color:rgb(89, 62, 133);
+    font-size:13px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left:30px;
+    margin-bottom:4px;
+}
+.lnamebox{
+    
+    top:60px;
+    left:50px;
+    font-family: Courier, monospace;
+    color:rgb(89, 62, 133);
+    font-size:13px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left:30px;
+    margin-bottom:10px;
+    
+}
+.name{
+    
+    top:55px;
+    left:50px;
+    font-family: Courier, monospace;
+    color:rgb(89, 62, 133);
+    font-size:13px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left:30px;
+    margin-bottom:4px;
+}
+.namebox{
+    
+    top:60px;
+    left:50px;
+    font-family: Courier, monospace;
+    color:rgb(89, 62, 133);
+    font-size:13px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left:30px;
+    margin-bottom:10px;
+    
+}
+.mail{
+    
+    top:55px;
+    left:50px;
+    font-family: Courier, monospace;
+    color:rgb(89, 62, 133);
+    font-size:13px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left:30px;
+    margin-bottom:4px;
+}
+.mailbox{
+    
+    top:60px;
+    left:50px;
+    font-family: Courier, monospace;
+    color:rgb(89, 62, 133);
+    font-size:13px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left:30px;
+    margin-bottom:10px;
+    
+}
+/* USERNAME BOX */
+.user2{
+    
+    top:55px;
+    left:50px;
+    font-family: Courier, monospace;
+    color:rgb(89, 62, 133);
+    font-size:13px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left:30px;
+    margin-bottom:4px;
+}
+.userbox2{
+    
+    top:60px;
+    left:50px;
+    font-family: Courier, monospace;
+    color:rgb(89, 62, 133);
+    font-size:13px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left:30px;
+    margin-bottom:10px;
+    
+}
+/* PASS BOX */
+.pswd2{
+    
+    top:70px;
+    left:50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:12px;
+    color:rgb(89, 62, 133);
+    margin-left:30px;
+    margin-bottom:4px;
+}
+.pswdbox2{
+    
+    top:75px;
+    left:50px;
+    font-family: Courier, monospace;
+    color:rgb(89, 62, 133);
+    font-size:15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left:30px;
+    margin-bottom:10px;
+    
+}
+.register2{
+    width:200px;
+    height:30px;
+    background-color: #361441;
+    border: none;
+    color: white;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left:30px;
+    margin-bottom:10px;
+}  
+.register2:hover{
+    background-color: rgb(105, 68, 98);
+}
+.registercancel{
+    
+    left:50px;
+    top:100px;
+    width:200px;
+    height:30px;
+    background-color: #534358;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    margin-left:30px;
+    margin-bottom:10px;
+}
+.registercancel:hover{
+    background-color: rgb(105, 68, 98);
+}
+.psw2{
+    
+    left:50px;
+    top:150px;
+    color: white;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    margin-left:30px;
+    margin-bottom:10px;
+}
+/* The Modal (background) */
+.registermodal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+/* MODAL BOX CONTENT */
+.registermodal-content {
+    position:relative;
+    display:block;
+    background-color: #ffffff;
+    margin: 0 auto; /* 15% from the top and centered */
+    width: 400px; /* Could be more or less, depending on screen size */
+    height:500px;
+    border:1px solid grey;
+    border-radius: 5px;
+}

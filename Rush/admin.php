@@ -1,0 +1,10 @@
+<?php
+require_once("../html/header.html");
+?>
+<html>
+<ul>
+        <li>Li</li>
+        <li>Lou</li>
+        <li>Lu</li>
+</ul>
+</html>

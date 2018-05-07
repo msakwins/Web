@@ -1,0 +1,147 @@
+.butt{
+    position:absolute;
+    right:85px;
+    top:35px;
+    width:80px;
+    height:40px;
+    background-color: #94618e;
+    border: none;
+    color:#262029;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    cursor: pointer;
+    outline:none;
+}
+.butt:hover{
+    color: #f8eee7;
+}
+.signin{
+    color:rgb(89, 62, 133);
+    font-size:25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:30px;
+}
+.user{
+    font-family: Courier, monospace;
+    color:rgb(89, 62, 133);
+    font-size:13px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left:30px;
+    margin-bottom:4px;
+    
+}
+.userbox{
+    font-family: Courier, monospace;
+    color:rgb(89, 62, 133);
+    font-size:13px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left:30px;
+    margin-bottom:10px;
+    
+}
+/* PASS BOX */
+.pswd{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:12px;
+    color:rgb(89, 62, 133);
+    margin-left:30px;
+    margin-bottom:4px;
+}
+.pswdbox{
+    font-family: Courier, monospace;
+    color:rgb(89, 62, 133);
+    font-size:15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left:30px;
+    margin-bottom:10px;
+    
+    
+}
+.remember{
+    font-size:12px;
+    color:rgb(89, 62, 133);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left:30px;
+    margin-bottom:10px;
+}
+.butt2{
+    width:200px;
+    height:30px;
+    background-color: #361441;
+    color: white;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    margin-left:30px;
+    margin-bottom:10px;
+}
+
+.butt2:hover{
+    background-color: rgb(105, 68, 98);
+}
+
+.cancelbutt{
+    width:200px;
+    height:30px;
+    background-color: #534358;
+    border: none;
+    color: white;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left:30px;
+    margin-bottom:10px;
+}
+.cancelbutt:hover{
+    background-color: rgb(105, 68, 98);
+}
+.psw{
+    left:50px;
+    top:150px;
+    color: white;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    margin-left:30px;
+    margin-bottom:10px;
+}
+/* USERNAME BOX */
+input[type=text]{
+    width:200px;
+    height:25px;
+    outline-color:rgb(184, 118, 172);
+    
+}
+input[type=password]{
+    width:200px;
+    height:25px;
+    outline-color:rgb(184, 118, 172);
+    
+}
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+/* MODAL BOX CONTENT */
+
+.modal-content {
+    position: relative;
+    background-color: #ffffff;
+    margin: 0 auto; /* 15% from the top and centered */
+    width: 400px; /* Could be more or less, depending on screen size */
+    height:350px;
+    border:1px solid grey;
+    border-radius: 5px;
+    
+}
